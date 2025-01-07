@@ -1,10 +1,11 @@
-percentagens <- c(82.7, 17.3)
-labels <- c("18-24 (82.7%)", "25-29 (17.3%)")
+percentagens <- c(82, 18)
+labels <- c("18-24 (82%)", "25-29 (18%)")
 
 cores_respostas <- c("#B39DDB", "#FFD54F")
 
 pie(percentagens, 
     labels = labels, 
     col = cores_respostas, 
-    border = "white")
+    border = "white",
+    cex = 1.5)
 

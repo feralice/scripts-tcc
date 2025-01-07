@@ -1,5 +1,5 @@
-percentagens <- c(88.9, 11.1)
-labels <- c("Sim (88.78%)", "Não (11.22%)")
+percentagens <- c(92.41, 7.59)
+labels <- c("Sim (92.41%)", "Não (7.59%)")
 cores_respostas <- c("#B39DDB", "#FFD54F")
 
 pie(percentagens, 
